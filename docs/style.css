@@ -1,0 +1,196 @@
+/* SEREN Legal Documents Stylesheet */
+
+:root {
+    --primary-purple: #8B7FC6;
+    --light-purple: #E8E4F3;
+    --text-dark: #2C2C2E;
+    --text-medium: #48484A;
+    --text-light: #8E8E93;
+    --bg-white: #FFFFFF;
+    --bg-light: #F7F7F7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: var(--text-medium);
+    background-color: var(--bg-light);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: var(--bg-white);
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 2px solid var(--light-purple);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 8px;
+}
+
+.last-updated {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    font-style: italic;
+}
+
+main {
+    margin-bottom: 48px;
+}
+
+section {
+    margin-bottom: 32px;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+p {
+    margin-bottom: 16px;
+    line-height: 1.8;
+}
+
+ul {
+    margin-left: 24px;
+    margin-bottom: 16px;
+}
+
+li {
+    margin-bottom: 8px;
+    line-height: 1.8;
+}
+
+strong {
+    color: var(--text-dark);
+    font-weight: 600;
+}
+
+a {
+    color: var(--primary-purple);
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+.tagline {
+    text-align: center;
+    margin-top: 48px;
+    padding: 24px;
+    background-color: var(--light-purple);
+    border-radius: 12px;
+}
+
+.tagline p {
+    font-size: 1.1rem;
+    color: var(--primary-purple);
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    padding-top: 24px;
+    border-top: 2px solid var(--light-purple);
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 24px 16px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+}
+
+/* Landing Page Specific Styles */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: var(--text-dark);
+    margin-bottom: 16px;
+}
+
+.hero .subtitle {
+    font-size: 1.25rem;
+    color: var(--text-medium);
+    margin-bottom: 32px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 16px 32px;
+    background-color: var(--primary-purple);
+    color: white;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #7A6FB5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(139, 127, 198, 0.3);
+    text-decoration: none;
+    opacity: 1;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 48px;
+}
+
+.links a {
+    font-size: 1.1rem;
+}
