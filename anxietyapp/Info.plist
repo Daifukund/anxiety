@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Bundle Identifier -->
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+
+	<!-- Bundle Executable -->
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+
+	<!-- App Display Name -->
+	<key>CFBundleDisplayName</key>
+	<string>Nuvin</string>
+
+	<!-- App Version (Marketing) -->
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+
+	<!-- Build Number -->
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+
+	<!-- Bundle Package Type -->
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+
+	<!-- Minimum iOS Version -->
+	<key>MinimumOSVersion</key>
+	<string>16.6</string>
+
+	<!-- App Category -->
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.healthcare-fitness</string>
+
+	<!-- Launch Screen -->
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+
+	<!-- Supported Interface Orientations - iPhone (Portrait Only) -->
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+
+	<!-- Supported Interface Orientations - iPad -->
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+
+	<!-- PRIVACY USAGE DESCRIPTIONS -->
+
+	<!-- Unused permissions removed to comply with App Store Review Guidelines 2.5.1 -->
+	<!-- Photo Library, Camera, and Motion permissions will be added when features are implemented -->
+
+	<!-- EXPORT COMPLIANCE -->
+
+	<!-- App uses standard encryption (HTTPS) but no custom crypto requiring export documentation -->
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+
+	<!-- APP CAPABILITIES -->
+
+	<!-- Required for SwiftUI Apps -->
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+
+	<!-- Support for indirect input events -->
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+
+	<!-- Status Bar Style -->
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
+
+	<!-- View controller-based status bar appearance -->
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
+
+	<!-- Device Capabilities Required -->
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+
+	<!-- HEALTH & WELLNESS SPECIFIC -->
+
+	<!-- HealthKit permissions removed - not currently used -->
+	<!-- Will be added when HealthKit integration is implemented -->
+
+	<!-- APPSFLYER CONFIGURATION -->
+
+	<!-- AppsFlyer App ID (Bundle Identifier) -->
+	<key>AppsFlyerAppID</key>
+	<string>eunoia.anxietyapp</string>
+
+	<!-- App Transport Security Settings -->
+	<!-- Allow AppsFlyer to communicate securely -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+	</dict>
+
+	<!-- URL SCHEME FOR WIDGET DEEP LINKING -->
+
+	<!-- Custom URL scheme for launching SOS flow from widgets -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>eunoia.anxietyapp</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>nuvin</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

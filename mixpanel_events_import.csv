@@ -1,0 +1,22 @@
+Event Name,Display Name,Description
+Onboarding Started,Onboarding Started,User begins the onboarding flow
+Onboarding Step Viewed,Onboarding Step Viewed,User views a specific onboarding step
+Goals Set,Goals Set,User selects their personal goals during onboarding
+Commitment Signed,Commitment Signed,User signs the commitment contract
+Notification Permission Result,Notification Permission Result,iOS notification permission granted or denied
+Paywall Viewed,Paywall Viewed,User views the subscription paywall
+Onboarding Completed,Onboarding Completed,User completes the entire onboarding flow
+Relief Experience Started,Relief Experience Started,User begins the relief experience
+Relief Experience Mood Check In,Relief Experience Mood Check In,User rates anxiety level before relief exercise
+Relief Experience SOS Breathing Completed,Relief Experience SOS Breathing Completed,User completes the SOS breathing exercise
+Relief Experience Technique Chosen,Relief Experience Technique Chosen,User selects a relief technique
+Relief Experience Technique Completed,Relief Experience Technique Completed,User completes the chosen relief technique
+Relief Experience Mood Check Out,Relief Experience Mood Check Out,User rates anxiety level after relief exercise
+Informative Cards Completed,Informative Cards Completed,User finishes viewing informative cards
+Quiz Question Answered,Quiz Question Answered,User answers an individual quiz question
+Purchase Cancelled,Purchase Cancelled,User cancels the purchase flow
+Restore Purchase Success,Restore Purchase Success,User successfully restores previous purchase
+SOS Button Tapped,SOS Button Tapped,User taps the emergency SOS button
+Technique Started,Technique Started,User starts an anxiety relief technique
+Technique Completed,Technique Completed,User completes an anxiety relief technique
+Mood Checkin,Mood Checkin,User logs their current mood

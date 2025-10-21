@@ -1,0 +1,134 @@
+{
+  "identifier" : "Configuration",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "99.99",
+      "familyShareable" : false,
+      "internalID" : "lifetime001",
+      "localizations" : [
+        {
+          "description" : "Lifetime access to all Nuvin. features",
+          "displayName" : "Lifetime Access",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "eunoia.anxietyapp.lifetime",
+      "referenceName" : "Lifetime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "1234567890",
+    "_developerTeamID" : "HZF8D6VSG2",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 748893821.20821798,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptions" : [
+    {
+      "adHocOffers" : [
+
+      ],
+      "codeOffers" : [
+
+      ],
+      "displayPrice" : "7.99",
+      "familyShareable" : false,
+      "groupNumber" : 1,
+      "internalID" : "monthly001",
+      "introductoryOffer" : null,
+      "localizations" : [
+        {
+          "description" : "Monthly subscription to Nuvin. - Full access to all anxiety relief tools and features",
+          "displayName" : "Monthly Subscription",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "eunoia.anxietyapp.monthly",
+      "recurringSubscriptionPeriod" : "P1M",
+      "referenceName" : "Monthly Subscription",
+      "subscriptionGroupNumber" : 1,
+      "type" : "RecurringSubscription"
+    },
+    {
+      "adHocOffers" : [
+
+      ],
+      "codeOffers" : [
+
+      ],
+      "displayPrice" : "49.99",
+      "familyShareable" : false,
+      "groupNumber" : 1,
+      "internalID" : "annual001",
+      "introductoryOffer" : null,
+      "localizations" : [
+        {
+          "description" : "Annual subscription to Nuvin. with 50% savings - Full access to all anxiety relief tools",
+          "displayName" : "Annual Subscription",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "eunoia.anxietyapp.annual",
+      "recurringSubscriptionPeriod" : "P1Y",
+      "referenceName" : "Annual Subscription",
+      "subscriptionGroupNumber" : 1,
+      "type" : "RecurringSubscription"
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

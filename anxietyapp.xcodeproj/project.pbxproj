@@ -6,23 +6,113 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5335279A2EA7870D002E095A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533527992EA7870C002E095A /* WidgetKit.framework */; };
+		5335279C2EA7870D002E095A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5335279B2EA7870D002E095A /* SwiftUI.framework */; };
+		533527AB2EA7870E002E095A /* SOSWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 533527982EA7870C002E095A /* SOSWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		539C50252E8E8AD300A6F569 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 539C50242E8E8AD300A6F569 /* RevenueCat */; };
+		539C52AC2E8EB3EA00A6F569 /* Mixpanel in Frameworks */ = {isa = PBXBuildFile; productRef = 539C52AB2E8EB3EA00A6F569 /* Mixpanel */; };
+		539C567E2E96E47F00A6F569 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539C567D2E96E47F00A6F569 /* StoreKit.framework */; };
+		539C57242E9BEFC500A6F569 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 539C57232E9BEFC500A6F569 /* RevenueCatUI */; };
+		539C58022E9D000000A6F569 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 539C58012E9D000000A6F569 /* AppsFlyerLib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		533527A92EA7870E002E095A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 539C4F982E88458800A6F569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533527972EA7870C002E095A;
+			remoteInfo = SOSWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		533527B02EA7870E002E095A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				533527AB2EA7870E002E095A /* SOSWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		533527982EA7870C002E095A /* SOSWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SOSWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		533527992EA7870C002E095A /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		5335279B2EA7870D002E095A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		5335286E2EA78A08002E095A /* SOSWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SOSWidgetExtension.entitlements; sourceTree = "<group>"; };
 		539C4FA02E88458800A6F569 /* anxietyapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anxietyapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		539C567D2E96E47F00A6F569 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		533527AF2EA7870E002E095A /* Exceptions for "SOSWidget" folder in "SOSWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 533527972EA7870C002E095A /* SOSWidgetExtension */;
+		};
+		5335286D2EA78924002E095A /* Exceptions for "anxietyapp" folder in "SOSWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Shared/AppGroup.swift,
+			);
+			target = 533527972EA7870C002E095A /* SOSWidgetExtension */;
+		};
+		539C4FA32E88458801A6F569 /* Exceptions for "anxietyapp" folder in "anxietyapp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 539C4F9F2E88458800A6F569 /* anxietyapp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		5335279D2EA7870D002E095A /* SOSWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				533527AF2EA7870E002E095A /* Exceptions for "SOSWidget" folder in "SOSWidgetExtension" target */,
+			);
+			path = SOSWidget;
+			sourceTree = "<group>";
+		};
 		539C4FA22E88458800A6F569 /* anxietyapp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				539C4FA32E88458801A6F569 /* Exceptions for "anxietyapp" folder in "anxietyapp" target */,
+				5335286D2EA78924002E095A /* Exceptions for "anxietyapp" folder in "SOSWidgetExtension" target */,
+			);
 			path = anxietyapp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		533527952EA7870C002E095A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5335279C2EA7870D002E095A /* SwiftUI.framework in Frameworks */,
+				5335279A2EA7870D002E095A /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		539C4F9D2E88458800A6F569 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				539C57242E9BEFC500A6F569 /* RevenueCatUI in Frameworks */,
+				539C567E2E96E47F00A6F569 /* StoreKit.framework in Frameworks */,
+				539C52AC2E8EB3EA00A6F569 /* Mixpanel in Frameworks */,
+				539C50252E8E8AD300A6F569 /* RevenueCat in Frameworks */,
+				539C58022E9D000000A6F569 /* AppsFlyerLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +122,10 @@
 		539C4F972E88458800A6F569 = {
 			isa = PBXGroup;
 			children = (
+				5335286E2EA78A08002E095A /* SOSWidgetExtension.entitlements */,
 				539C4FA22E88458800A6F569 /* anxietyapp */,
+				5335279D2EA7870D002E095A /* SOSWidget */,
+				539C567C2E96E47F00A6F569 /* Frameworks */,
 				539C4FA12E88458800A6F569 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,13 +134,46 @@
 			isa = PBXGroup;
 			children = (
 				539C4FA02E88458800A6F569 /* anxietyapp.app */,
+				533527982EA7870C002E095A /* SOSWidgetExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		539C567C2E96E47F00A6F569 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				539C567D2E96E47F00A6F569 /* StoreKit.framework */,
+				533527992EA7870C002E095A /* WidgetKit.framework */,
+				5335279B2EA7870D002E095A /* SwiftUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		533527972EA7870C002E095A /* SOSWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533527AC2EA7870E002E095A /* Build configuration list for PBXNativeTarget "SOSWidgetExtension" */;
+			buildPhases = (
+				533527942EA7870C002E095A /* Sources */,
+				533527952EA7870C002E095A /* Frameworks */,
+				533527962EA7870C002E095A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5335279D2EA7870D002E095A /* SOSWidget */,
+			);
+			name = SOSWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = SOSWidgetExtension;
+			productReference = 533527982EA7870C002E095A /* SOSWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		539C4F9F2E88458800A6F569 /* anxietyapp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 539C4FAB2E88458900A6F569 /* Build configuration list for PBXNativeTarget "anxietyapp" */;
@@ -55,16 +181,22 @@
 				539C4F9C2E88458800A6F569 /* Sources */,
 				539C4F9D2E88458800A6F569 /* Frameworks */,
 				539C4F9E2E88458800A6F569 /* Resources */,
+				533527B02EA7870E002E095A /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				533527AA2EA7870E002E095A /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				539C4FA22E88458800A6F569 /* anxietyapp */,
 			);
 			name = anxietyapp;
 			packageProductDependencies = (
+				539C50242E8E8AD300A6F569 /* RevenueCat */,
+				539C52AB2E8EB3EA00A6F569 /* Mixpanel */,
+				539C57232E9BEFC500A6F569 /* RevenueCatUI */,
+				539C58012E9D000000A6F569 /* AppsFlyerLib */,
 			);
 			productName = anxietyapp;
 			productReference = 539C4FA02E88458800A6F569 /* anxietyapp.app */;
@@ -80,6 +212,9 @@
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
+					533527972EA7870C002E095A = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
 					539C4F9F2E88458800A6F569 = {
 						CreatedOnToolsVersion = 26.0.1;
 					};
@@ -94,17 +229,30 @@
 			);
 			mainGroup = 539C4F972E88458800A6F569;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				539C501B2E8E848400A6F569 /* XCRemoteSwiftPackageReference "purchases-ios" */,
+				539C52AA2E8EB3EA00A6F569 /* XCRemoteSwiftPackageReference "mixpanel-swift" */,
+				539C58002E9D000000A6F569 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 539C4FA12E88458800A6F569 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				539C4F9F2E88458800A6F569 /* anxietyapp */,
+				533527972EA7870C002E095A /* SOSWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		533527962EA7870C002E095A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		539C4F9E2E88458800A6F569 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +263,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		533527942EA7870C002E095A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		539C4F9C2E88458800A6F569 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,7 +279,81 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		533527AA2EA7870E002E095A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 533527972EA7870C002E095A /* SOSWidgetExtension */;
+			targetProxy = 533527A92EA7870E002E095A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		533527AD2EA7870E002E095A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SOSWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = HZF8D6VSG2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SOSWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SOSWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eunoia.anxietyapp.SOSWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		533527AE2EA7870E002E095A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SOSWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = HZF8D6VSG2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SOSWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SOSWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eunoia.anxietyapp.SOSWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		539C4FA92E88458900A6F569 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -177,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -234,7 +463,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -249,29 +478,42 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = anxietyapp/anxietyapp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = HZF8D6VSG2;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = anxietyapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Nuvin;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = eunoia.anxietyapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -280,35 +522,57 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = anxietyapp/anxietyapp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = HZF8D6VSG2;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = anxietyapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Nuvin;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = eunoia.anxietyapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		533527AC2EA7870E002E095A /* Build configuration list for PBXNativeTarget "SOSWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533527AD2EA7870E002E095A /* Debug */,
+				533527AE2EA7870E002E095A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		539C4F9B2E88458800A6F569 /* Build configuration list for PBXProject "anxietyapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -328,6 +592,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		539C501B2E8E848400A6F569 /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.40.0;
+			};
+		};
+		539C52AA2E8EB3EA00A6F569 /* XCRemoteSwiftPackageReference "mixpanel-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mixpanel/mixpanel-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		539C58002E9D000000A6F569 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		539C50242E8E8AD300A6F569 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 539C501B2E8E848400A6F569 /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCat;
+		};
+		539C52AB2E8EB3EA00A6F569 /* Mixpanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 539C52AA2E8EB3EA00A6F569 /* XCRemoteSwiftPackageReference "mixpanel-swift" */;
+			productName = Mixpanel;
+		};
+		539C57232E9BEFC500A6F569 /* RevenueCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 539C501B2E8E848400A6F569 /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCatUI;
+		};
+		539C58012E9D000000A6F569 /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 539C58002E9D000000A6F569 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 539C4F982E88458800A6F569 /* Project object */;
 }

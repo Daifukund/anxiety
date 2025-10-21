@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- RevenueCat API Key -->
+	<!-- Get your key from: https://app.revenuecat.com/settings/api-keys -->
+	<key>RevenueCatAPIKey</key>
+	<string>YOUR_REVENUECAT_API_KEY_HERE</string>
+
+	<!-- Mixpanel Project Token -->
+	<!-- Get your token from: https://mixpanel.com/settings/project -->
+	<key>MixpanelToken</key>
+	<string>YOUR_MIXPANEL_TOKEN_HERE</string>
+
+	<!-- AppsFlyer Dev Key -->
+	<!-- Get your key from: https://hq1.appsflyer.com/settings/dev-key -->
+	<key>AppsFlyerDevKey</key>
+	<string>YOUR_APPSFLYER_DEV_KEY_HERE</string>
+</dict>
+</plist>

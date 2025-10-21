@@ -1,5 +1,12 @@
+# macOS
 .DS_Store
 xcuserdata/
 DerivedData/
 build/
+
+# API Keys & Secrets - DO NOT COMMIT
+anxietyapp/Config.plist
+
+# Keep template file (no secrets)
+!anxietyapp/Config-Template.plist
 

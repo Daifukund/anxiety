@@ -1,14 +1,14 @@
 # Privacy Policy
 
-**Last Updated:** January 2025
+**Last Updated:** October 2025
 
-Managing panic attacks and anxiety is a journey. Our hope is for SEREN to be your partner along the way – available to offer support any time, any where, for any reason.
+Managing panic attacks and anxiety is a journey. Our hope is for Nuvin to be your partner along the way – available to offer support any time, any where, for any reason.
 
 Any successful partnership needs to start with trust. For this reason, and countless others, we take the privacy of your data seriously.
 
-This Privacy Policy explains how SEREN ("we", "us", or "our") collects, uses, and discloses information about you when you access or use our mobile application ("App"), and other online products and services (collectively, the "Service"), and when you contact our customer service team, engage with us on social media, or otherwise interact with us.
+This Privacy Policy explains how Nuvin ("we", "us", or "our") collects, uses, and discloses information about you when you access or use our mobile application ("App"), and other online products and services (collectively, the "Service"), and when you contact our customer service team, engage with us on social media, or otherwise interact with us.
 
-Before using the Service or submitting any personal data to SEREN, please review this Privacy Policy carefully and contact us if you have any questions. By using the Service, you agree to the practices described in this Privacy Policy. If you do not agree to this Privacy Policy, please do not access the App or otherwise use the Service.
+Before using the Service or submitting any personal data to Nuvin, please review this Privacy Policy carefully and contact us if you have any questions. By using the Service, you agree to the practices described in this Privacy Policy. If you do not agree to this Privacy Policy, please do not access the App or otherwise use the Service.
 
 ## 1. What Data We Collect
 
@@ -26,9 +26,9 @@ We collect the following categories of Personal Data from you when you create an
 
 **Social Media Data:** We have pages on social media sites like Instagram, Facebook, Twitter, and LinkedIn ("Social Media Pages"). When you interact with our Social Media Pages, we may collect Personal Data that you elect to provide to us, such as your contact details. In addition, the companies that host our Social Media Pages may provide us with aggregate information and analytics regarding the use of our Social Media Pages.
 
-**Anxiety Check-In:** The anxiety check-in and mood tracking features may help measure state of anxiety. All of the individual-level data you provide in connection with this feature will be processed by SEREN solely for the purpose of providing you with the Check-In feature and is stored locally on your device.
+**Anxiety Check-In:** The anxiety check-in and mood tracking features may help measure state of anxiety. All of the individual-level data you provide in connection with this feature will be processed by Nuvin solely for the purpose of providing you with the Check-In feature and is stored locally on your device.
 
-SEREN does not collect or process credit or debit card ("Payment Card") data. Apple and Google collect Payment Card data with respect to in-app purchases made through the App. Such payment processors generally provide us with some limited data related to you, such as a unique, anonymous token that enables you to make additional purchases using the data they've stored, and your card's type, expiration date, and the last four digits of your card number.
+Nuvin does not collect or process credit or debit card ("Payment Card") data. Apple and Google collect Payment Card data with respect to in-app purchases made through the App. Such payment processors generally provide us with some limited data related to you, such as a unique, anonymous token that enables you to make additional purchases using the data they've stored, and your card's type, expiration date, and the last four digits of your card number.
 
 ### Internet Activity Data
 
@@ -77,7 +77,7 @@ We may use Personal Data for the following purposes:
 
 ## 3. How We Share Data
 
-SEREN does not sell your Personal Data. In certain circumstances we may share the categories of Personal Data described above without further notice to you, unless required by the law, with the following categories of third parties:
+Nuvin does not sell your Personal Data. In certain circumstances we may share the categories of Personal Data described above without further notice to you, unless required by the law, with the following categories of third parties:
 
 **Vendors and Service Providers:** To assist us in meeting business operations needs and to perform certain services and functions, we may share Personal Data with vendors and service providers, including providers of cloud hosting/computing services, database providers, email delivery and in-app/push messaging services, advertising and marketing services, payment processors, content monitoring services, and web, subscription, and app analytics services. Pursuant to our instructions, these parties will access, process, or store Personal Data in the course of performing their duties to us. We take commercially reasonable steps to ensure our service providers adhere to the security standards we apply to your Personal Data.
 
@@ -85,35 +85,35 @@ SEREN does not sell your Personal Data. In certain circumstances we may share th
 
 **Legal Requirements:** If required to do so by law or in the good faith belief that such action is necessary to (i) comply with a legal obligation, including to meet national security or law enforcement requirements, (ii) protect and defend our rights or property, (iii) prevent fraud, (iv) act in urgent circumstances to protect the personal safety of users of the Service, or the public, or (v) protect against legal liability.
 
-**Advertisements:** We may share data with third parties, such as Facebook and Google, in order to serve SEREN advertisements on such third party platforms, to the extent that you have consented to such practices under applicable law.
+**Advertisements:** We may share data with third parties, such as Facebook and Google, in order to serve Nuvin advertisements on such third party platforms, to the extent that you have consented to such practices under applicable law.
 
 ## 4. Children
 
 Our Service is not directed to children who are under the age of 18. If you are younger than 18 years of age, you must get consent from your parent or legal guardian before you provide any Personal Information to us.
 
-If you have reason to believe that a child under the age of 18 has provided Personal Data to SEREN through the Service that was not provided with parental consent, please contact us as indicated below and we will endeavour to delete that information from our databases.
+If you have reason to believe that a child under the age of 18 has provided Personal Data to Nuvin through the Service that was not provided with parental consent, please contact us as indicated below and we will endeavour to delete that information from our databases.
 
 ## 5. Other Websites
 
-The Service may, from time to time, contain links to other websites not operated or controlled by SEREN, including those of our partner networks, advertisers, and affiliates. If you follow a link to any of these external websites, please note that these websites have their own privacy policies and that we do not accept any responsibility or liability for these websites or their policies. Please check these policies before you submit any personal data to these external websites.
+The Service may, from time to time, contain links to other websites not operated or controlled by Nuvin, including those of our partner networks, advertisers, and affiliates. If you follow a link to any of these external websites, please note that these websites have their own privacy policies and that we do not accept any responsibility or liability for these websites or their policies. Please check these policies before you submit any personal data to these external websites.
 
 ## 6. Security
 
-You use the Service at your own risk. We implement commercially reasonable technical, administrative, and organizational measures to protect Personal Data both online and offline from loss, misuse, and unauthorized access, disclosure, alteration, or destruction. However, no Internet or e-mail transmission is ever fully secure or error free. In particular, e-mail sent to or from us may not be secure. Therefore, you should take special care in deciding what information you send to us via the Service or e-mail. Please keep this in mind when disclosing any Personal Data to SEREN via the Internet. In addition, we are not responsible for circumvention of any privacy settings or security measures contained on the Service, or third party websites.
+You use the Service at your own risk. We implement commercially reasonable technical, administrative, and organizational measures to protect Personal Data both online and offline from loss, misuse, and unauthorized access, disclosure, alteration, or destruction. However, no Internet or e-mail transmission is ever fully secure or error free. In particular, e-mail sent to or from us may not be secure. Therefore, you should take special care in deciding what information you send to us via the Service or e-mail. Please keep this in mind when disclosing any Personal Data to Nuvin via the Internet. In addition, we are not responsible for circumvention of any privacy settings or security measures contained on the Service, or third party websites.
 
 ## 7. International Users
 
-SEREN processes information in the United States, which may not provide equivalent levels of data protection as your home jurisdiction.
+Nuvin processes information in the United States, which may not provide equivalent levels of data protection as your home jurisdiction.
 
 ## 8. HealthKit
 
-Apple iOS users may opt-in to allow the App to provide data regarding the amount of time spent using SEREN's tools and features to the Apple iOS "Health" application for display. This data will not be shared with third parties or used for marketing purposes.
+Apple iOS users may opt-in to allow the App to provide data regarding the amount of time spent using Nuvin's tools and features to the Apple iOS "Health" application for display. This data will not be shared with third parties or used for marketing purposes.
 
 ## 9. Your Choices
 
-**Account Information:** Please contact us at nathan.douziec@gmail.com if you need to change, correct, or delete your Personal Data. We will respond to your request in a reasonable timeframe. To reset your password, use the password reset feature in the App. If you wish to disable your account, please contact us, but note that we retain certain information when required or permitted by law. We also retain cached or archived copies of information about you for a certain period of time.
+**Account Information:** Please contact us at nathan.douziech@gmail.com if you need to change, correct, or delete your Personal Data. We will respond to your request in a reasonable timeframe. To reset your password, use the password reset feature in the App. If you wish to disable your account, please contact us, but note that we retain certain information when required or permitted by law. We also retain cached or archived copies of information about you for a certain period of time.
 
-**Promotional Communications:** You may opt out of receiving promotional emails from SEREN by following the instructions in those emails. If you opt out, we may still send you non-promotional emails, such as those about your account or our ongoing business relations.
+**Promotional Communications:** You may opt out of receiving promotional emails from Nuvin by following the instructions in those emails. If you opt out, we may still send you non-promotional emails, such as those about your account or our ongoing business relations.
 
 **Mobile Push Notifications/Alerts:** With your consent, we send promotional and other push notifications to your mobile device. You can deactivate these messages at any time by changing the notification settings on your mobile device.
 
@@ -141,7 +141,7 @@ Subject to certain limits and conditions provided under law, you have the follow
 - You have the right to access personal data we hold about you and to ask that your personal data be corrected, erased, or made available in a portable form
 - You also have the right to object to certain processing (like receiving direct marketing), or request that we restrict processing in certain circumstances (like to retain but not further process pending resolution of a claim)
 - When we ask for your consent, you may withdraw that consent at any time
-- You have the right to lodge a complaint with a supervisory authority or other regulatory agency if you believe that we have violated any of the rights concerning personal data about you. We encourage you to first reach out to us at nathan.douziec@gmail.com so we have an opportunity to address your concerns directly before you do so
+- You have the right to lodge a complaint with a supervisory authority or other regulatory agency if you believe that we have violated any of the rights concerning personal data about you. We encourage you to first reach out to us at nathan.douziech@gmail.com so we have an opportunity to address your concerns directly before you do so
 
 If you would like to exercise any of these rights and can't do so directly via the Service or your device, you may contact us as indicated below.
 
@@ -163,7 +163,7 @@ We may change this Privacy Policy from time to time. If we make changes, we will
 
 ## 13. Contact
 
-Questions, comments, and requests regarding this privacy policy are welcomed and should be addressed to nathan.douziec@gmail.com.
+Questions, comments, and requests regarding this privacy policy are welcomed and should be addressed to nathan.douziech@gmail.com.
 
 ---
 
