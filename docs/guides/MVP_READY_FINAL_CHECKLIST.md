@@ -49,9 +49,9 @@
 **Status:** **READY**
 
 **Your URLs (already published):**
-- 🏠 Home: https://daifukund.github.io/nuvin/
-- 📄 Privacy Policy: https://daifukund.github.io/nuvin/privacy.html
-- 📋 Terms of Service: https://daifukund.github.io/nuvin/terms.html
+- 🏠 Home: https://nuvin.app/
+- 📄 Privacy Policy: https://nuvin.app/privacy
+- 📋 Terms of Service: https://nuvin.app/terms
 
 **Where to use them:**
 - In **App Store Connect** during submission
@@ -90,12 +90,12 @@
 ### ✅ During App Store Connect Setup:
 
 **App Information:**
-- Privacy Policy URL: `https://daifukund.github.io/nuvin/privacy.html`
-- Terms & Conditions URL: `https://daifukund.github.io/nuvin/terms.html` (optional)
-- Support URL: `https://daifukund.github.io/nuvin/`
+- Privacy Policy URL: `https://nuvin.app/privacy`
+- Terms & Conditions URL: `https://nuvin.app/terms` (optional)
+- Support URL: `https://nuvin.app/`
 
 **App Privacy:**
-- Privacy Policy URL: `https://daifukund.github.io/nuvin/privacy.html`
+- Privacy Policy URL: `https://nuvin.app/privacy`
 - Data Collection: Review your `PrivacyInfo.xcprivacy` for accurate disclosure
 
 **In-App Purchases:**
@@ -197,9 +197,9 @@
 1. Archive your app (Product → Archive)
 2. Upload to App Store Connect
 3. Fill in metadata with your URLs:
-   - Privacy Policy: https://daifukund.github.io/nuvin/privacy.html
-   - Terms: https://daifukund.github.io/nuvin/terms.html
-   - Support: https://daifukund.github.io/nuvin/
+   - Privacy Policy: https://nuvin.app/privacy
+   - Terms: https://nuvin.app/terms
+   - Support: https://nuvin.app/
 4. Submit for review!
 
 **Good luck with your launch! 🚀**

@@ -78,7 +78,7 @@ print("📱 Device: \(UIDevice.current.userInterfaceIdiom == .pad ? "iPad" : "iP
 **Changes Made**:
 - Added Terms and Privacy Policy links to main paywall view
 - Added Terms and Privacy Policy links to "All Plans" sheet
-- Links point to: https://daifukund.github.io/nuvin/terms.html and privacy.html
+- Links point to: https://nuvin.app/terms and privacy.html
 
 **File**: `anxietyapp/Views/OnboardingPaywallView.swift`
 
@@ -102,8 +102,8 @@ print("📱 Device: \(UIDevice.current.userInterfaceIdiom == .pad ? "iPad" : "iP
 ---
 LEGAL
 
-Terms of Use: https://daifukund.github.io/nuvin/terms.html
-Privacy Policy: https://daifukund.github.io/nuvin/privacy.html
+Terms of Use: https://nuvin.app/terms
+Privacy Policy: https://nuvin.app/privacy
 ```
 
 ---

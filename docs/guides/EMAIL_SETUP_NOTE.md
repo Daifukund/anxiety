@@ -40,11 +40,11 @@ These emails are currently **placeholders** and not functional.
 
 1. **Edit the HTML files** to replace placeholder emails:
 
-   **File: docs/privacy.html**
+   **File: docs/privacy**
    - Find: `privacy@nuvin.app`
    - Replace with: `your-actual-email@gmail.com` (or whatever email you use)
 
-   **File: docs/terms.html**
+   **File: docs/terms**
    - Find: `support@nuvin.app`
    - Replace with: `your-actual-email@gmail.com`
 
@@ -80,8 +80,8 @@ If choosing Option 2 (personal email), update these files:
 ### HTML files (for web):
 ```bash
 # Edit these files and replace the emails:
-docs/privacy.html
-docs/terms.html
+docs/privacy
+docs/terms
 ```
 
 ### Markdown files (for in-app display):

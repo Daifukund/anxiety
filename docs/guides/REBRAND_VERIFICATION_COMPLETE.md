@@ -38,8 +38,8 @@
 ### Legal Documents (VERIFIED ✅)
 - ✅ `PrivacyPolicy.md` - All "SEREN" → "Nuvin"
 - ✅ `TermsOfService.md` - All "SEREN" → "Nuvin"
-- ✅ `docs/privacy.html` - All "SEREN" → "Nuvin"
-- ✅ `docs/terms.html` - All "SEREN" → "Nuvin"
+- ✅ `docs/privacy` - All "SEREN" → "Nuvin"
+- ✅ `docs/terms` - All "SEREN" → "Nuvin"
 
 ### Documentation (VERIFIED ✅)
 - ✅ `prd.md` - Product name updated
@@ -91,7 +91,7 @@ These are CORRECT and should remain as-is. ✅
 **1. Update GitHub Pages URL Structure**
    - [ ] Current URLs still point to: `daifukund.github.io/seren/`
    - [ ] Action needed: Rename GitHub repo folder or update deployment
-   - [ ] New URL should be: `daifukund.github.io/nuvin/`
+   - [ ] New URL should be: `nuvin.app/`
    - [ ] Or deploy to custom domain: `nuvin.app`
 
 **2. App Icon**

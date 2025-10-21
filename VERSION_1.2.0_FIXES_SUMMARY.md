@@ -167,9 +167,9 @@ See `MIXPANEL_DEPENDENCY_FIX.md` for step-by-step Xcode instructions.
 
 ### App Store Connect Preparation:
 
-- [ ] Privacy Policy URL: `https://daifukund.github.io/nuvin/privacy.html`
-- [ ] Terms of Service URL: `https://daifukund.github.io/nuvin/terms.html`
-- [ ] Support URL: `https://daifukund.github.io/nuvin/`
+- [ ] Privacy Policy URL: `https://nuvin.app/privacy`
+- [ ] Terms of Service URL: `https://nuvin.app/terms`
+- [ ] Support URL: `https://nuvin.app`
 - [ ] App Store screenshots prepared
 - [ ] App description written
 

@@ -5,9 +5,9 @@ This guide will help you publish your Privacy Policy and Terms of Service to pub
 ## Quick Overview
 
 Your legal documents are located in `/docs`:
-- `docs/index.html` - Landing page
-- `docs/privacy.html` - Privacy Policy
-- `docs/terms.html` - Terms of Service
+- `docs` - Landing page
+- `docs/privacy` - Privacy Policy
+- `docs/terms` - Terms of Service
 - `docs/style.css` - Shared styles
 
 ## Option 1: GitHub Pages (Recommended - FREE)
@@ -58,8 +58,8 @@ After 1-2 minutes, your site will be live at:
 
 ```
 https://YOUR_USERNAME.github.io/nuvin-app/
-https://YOUR_USERNAME.github.io/nuvin-app/privacy.html
-https://YOUR_USERNAME.github.io/nuvin-app/terms.html
+https://YOUR_USERNAME.github.io/nuvin-app/privacy
+https://YOUR_USERNAME.github.io/nuvin-app/terms
 ```
 
 **These are the URLs you'll use in App Store Connect!**
@@ -124,8 +124,8 @@ https://nuvin.app/terms
 
 Netlify will give you a URL like:
 ```
-https://random-name-12345.netlify.app/privacy.html
-https://random-name-12345.netlify.app/terms.html
+https://random-name-12345.netlify.app/privacy
+https://random-name-12345.netlify.app/terms
 ```
 
 You can customize the subdomain or add a custom domain in Netlify settings.
@@ -154,8 +154,8 @@ Edit the HTML files and replace:
 - `support@nuvin.app` → `your-email@gmail.com`
 
 Update both:
-- `docs/privacy.html` (line containing "privacy@nuvin.app")
-- `docs/terms.html` (line containing "support@nuvin.app")
+- `docs/privacy` (line containing "privacy@nuvin.app")
+- `docs/terms` (line containing "support@nuvin.app")
 
 ---
 
@@ -164,7 +164,7 @@ Update both:
 Once your URLs are live:
 
 1. **Test the URLs** in a web browser to make sure they work
-2. **Copy the URLs** (e.g., `https://yourusername.github.io/nuvin-app/privacy.html`)
+2. **Copy the URLs** (e.g., `https://yourusername.github.io/nuvin-app/privacy`)
 3. Go to **App Store Connect**
 4. In your app's **App Information** section:
    - **Privacy Policy URL:** Paste your privacy.html URL

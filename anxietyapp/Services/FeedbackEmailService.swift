@@ -12,9 +12,9 @@ class FeedbackEmailService {
 
     private init() {}
 
-    // MARK: - FormSubmit Configuration
-    // FormSubmit.co - Free email service that works from iOS apps
-    private let yourEmail = "nathan@nuvin.app"
+    // MARK: - Google Apps Script Webhook
+    // Webhook that forwards feedback to nathan@nuvin.app
+    private let webhookURL = "https://script.google.com/macros/u/1/s/AKfycbzFa8g-33Q6Ct8xabOo0hQOm7UZPNthzhw1CiYWD2NQkTqO3ietf5VazCvXYuut3lNh/exec"
 
     // MARK: - Send Feedback
 
@@ -45,46 +45,36 @@ class FeedbackEmailService {
         additionalFeedback: String,
         completion: @escaping (Result<Void, Error>) -> Void
     ) {
-        // FormSubmit endpoint - super simple, no API keys needed!
-        let formSubmitURL = "https://formsubmit.co/\(yourEmail)"
-
-        guard let url = URL(string: formSubmitURL) else {
-            print("❌ Invalid email: \(yourEmail)")
+        guard let url = URL(string: webhookURL) else {
+            print("❌ Invalid webhook URL")
             completion(.failure(EmailError.invalidEndpoint))
             return
         }
 
-        print("🌐 Sending to FormSubmit: \(url.absoluteString)")
+        print("🌐 Sending to Google Apps Script webhook")
 
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
-        request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         request.timeoutInterval = 30
 
-        // FormSubmit requires form-encoded data, NOT JSON
-        let formData: [String: String] = [
-            "_subject": "🚨 Nuvin - User Feedback Before Deletion",
-            "User_Email": userEmail,
-            "Reasons": reasons,
-            "Feedback": additionalFeedback.isEmpty ? "No additional feedback" : additionalFeedback,
-            "Submitted": Date().formatted(date: .long, time: .standard),
-            "_captcha": "false"
+        // Prepare JSON data for webhook
+        let webhookData: [String: String] = [
+            "user_email": userEmail,
+            "reasons": reasons,
+            "feedback": additionalFeedback.isEmpty ? "No additional feedback" : additionalFeedback,
+            "timestamp": Date().formatted(date: .long, time: .standard)
         ]
 
-        // Convert to form-encoded string
-        var components = URLComponents()
-        components.queryItems = formData.map { URLQueryItem(name: $0.key, value: $0.value) }
-
-        guard let formEncodedData = components.percentEncodedQuery?.data(using: .utf8) else {
-            print("❌ Failed to encode form data")
-            completion(.failure(EmailError.sendFailed))
+        do {
+            request.httpBody = try JSONSerialization.data(withJSONObject: webhookData)
+        } catch {
+            print("❌ JSON encoding error: \(error)")
+            completion(.failure(error))
             return
         }
 
-        request.httpBody = formEncodedData
-
-        print("📧 Sending feedback email...")
-        print("To: \(yourEmail)")
+        print("📧 Sending feedback to webhook...")
         print("User: \(userEmail)")
         print("Reasons: \(reasons)")
 
@@ -97,18 +87,17 @@ class FeedbackEmailService {
                 }
 
                 if let httpResponse = response as? HTTPURLResponse {
-                    print("📧 FormSubmit response status: \(httpResponse.statusCode)")
+                    print("📧 Webhook response status: \(httpResponse.statusCode)")
 
                     if let data = data, let responseString = String(data: data, encoding: .utf8) {
                         print("📧 Response: \(responseString)")
                     }
 
-                    // FormSubmit returns 200 on success
                     if httpResponse.statusCode == 200 {
-                        print("✅ Email sent successfully via FormSubmit!")
+                        print("✅ Email sent successfully via Google Apps Script!")
                         completion(.success(()))
                     } else {
-                        print("❌ FormSubmit error (status \(httpResponse.statusCode))")
+                        print("❌ Webhook error (status \(httpResponse.statusCode))")
                         completion(.failure(EmailError.sendFailed))
                     }
                 } else {
@@ -119,7 +108,7 @@ class FeedbackEmailService {
         }
 
         task.resume()
-        print("✅ Request sent to FormSubmit")
+        print("✅ Request sent to webhook")
     }
 }
 

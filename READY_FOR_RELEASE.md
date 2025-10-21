@@ -77,9 +77,9 @@ When submitting, you'll need these URLs:
 
 | Field | URL |
 |-------|-----|
-| **Privacy Policy** | `https://daifukund.github.io/nuvin/privacy.html` |
-| **Terms of Service** | `https://daifukund.github.io/nuvin/terms.html` |
-| **Support URL** | `https://daifukund.github.io/nuvin/` |
+| **Privacy Policy** | `https://nuvin.app/privacy` |
+| **Terms of Service** | `https://nuvin.app/terms` |
+| **Support URL** | `https://nuvin.app` |
 
 ---
 

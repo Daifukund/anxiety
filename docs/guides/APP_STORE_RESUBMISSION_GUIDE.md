@@ -50,7 +50,7 @@ xcodebuild -project anxietyapp.xcodeproj -scheme anxietyapp -destination 'platfo
 **Fixed in Code**:
 - Added Terms and Privacy Policy links to main paywall view
 - Added Terms and Privacy Policy links to "All Plans" sheet
-- Links point to: https://daifukund.github.io/nuvin/terms.html
+- Links point to: https://nuvin.app/terms
 
 **Files Changed**:
 - `anxietyapp/Views/OnboardingPaywallView.swift`
@@ -74,8 +74,8 @@ You MUST add the following text to your App Store Connect app description:
 ---
 LEGAL
 
-Terms of Use: https://daifukund.github.io/nuvin/terms.html
-Privacy Policy: https://daifukund.github.io/nuvin/privacy.html
+Terms of Use: https://nuvin.app/terms
+Privacy Policy: https://nuvin.app/privacy
 ```
 
 #### Option 2: Add Custom EULA (Alternative)
@@ -85,7 +85,7 @@ Privacy Policy: https://daifukund.github.io/nuvin/privacy.html
 3. Scroll to "End User License Agreement" section
 4. Select "Custom EULA"
 5. Paste the content from `anxietyapp/Resources/TermsOfService.md`
-6. Include the link: https://daifukund.github.io/nuvin/terms.html
+6. Include the link: https://nuvin.app/terms
 
 ---
 
@@ -133,7 +133,7 @@ Thank you for your review. We have addressed all three issues:
 3. EULA LINK (Guideline 3.1.2):
    - Added Terms and Privacy links to all paywall views
    - Added EULA link to App Store Connect description
-   - Links are functional and point to: https://daifukund.github.io/nuvin/terms.html
+   - Links are functional and point to: https://nuvin.app/terms
 
 All changes have been tested on both iPhone and iPad devices.
 
@@ -161,8 +161,8 @@ Before building for submission, verify:
 - [ ] Products match RevenueCat product IDs exactly
 
 ### 3. Legal Documents
-- [ ] https://daifukund.github.io/nuvin/terms.html is live and accessible
-- [ ] https://daifukund.github.io/nuvin/privacy.html is live and accessible
+- [ ] https://nuvin.app/terms is live and accessible
+- [ ] https://nuvin.app/privacy is live and accessible
 - [ ] Both URLs open in browser without errors
 
 ---
