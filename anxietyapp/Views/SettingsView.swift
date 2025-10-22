@@ -175,7 +175,7 @@ struct SettingsView: View {
                     }
 
                     // Version info
-                    Text("Version 1.0.0")
+                    Text("Version 1.2.0")
                         .font(.system(size: 13))
                         .foregroundColor(Color.adaptiveSecondaryText(isDark: isDarkMode))
                         .padding(.top, 16)
@@ -241,7 +241,7 @@ struct SettingsView: View {
     private func shareApp() {
         HapticManager.shared.impact(.light)
 
-        let shareText = "Check out Nuvin - instant anxiety relief in under 2 minutes! https://apps.apple.com/us/app/nuvin-anxiety-relief/id6753338724"
+        let shareText = "Check out Nuvin - instant anxiety relief in under 2 minutes! https://apps.apple.com/app/nuvin/id6753338724"
         let activityController = UIActivityViewController(
             activityItems: [shareText],
             applicationActivities: nil
@@ -265,7 +265,7 @@ struct SettingsView: View {
     private func rateApp() {
         HapticManager.shared.impact(.light)
 
-        if let url = URL(string: "https://apps.apple.com/us/app/nuvin-anxiety-relief/id6753338724?action=write-review") {
+        if let url = URL(string: "https://apps.apple.com/app/nuvin/id6753338724?action=write-review") {
             UIApplication.shared.open(url)
         }
     }
@@ -1520,7 +1520,7 @@ struct DataManagementView: View {
                 // Create exportable data structure
                 let exportData: [String: Any] = [
                     "exportDate": ISO8601DateFormatter().string(from: Date()),
-                    "appVersion": "1.0.0",
+                    "appVersion": "1.2.0",
                     "userStats": [
                         "totalSessions": userDataService.userStats.totalSessions,
                         "currentStreak": userDataService.userStats.currentStreak,
