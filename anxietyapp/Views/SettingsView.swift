@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import StoreKit
 
 struct SettingsView: View {
     @Environment(\.dismiss) var dismiss
@@ -265,8 +266,9 @@ struct SettingsView: View {
     private func rateApp() {
         HapticManager.shared.impact(.light)
 
-        if let url = URL(string: "https://apps.apple.com/app/nuvin/id6753338724?action=write-review") {
-            UIApplication.shared.open(url)
+        // Use native Apple rating dialog
+        if let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
+            SKStoreReviewController.requestReview(in: scene)
         }
     }
 
