@@ -1,6 +1,6 @@
 # Terms & Conditions
 
-**Last Updated:** October 2025
+**Last Updated:** December 2025
 
 ## 1. GENERAL INFORMATION
 
@@ -8,7 +8,7 @@
 
 These Terms & Conditions (these "Terms") contain the terms and conditions on which we supply content, products or services through our mobile application (the "App") or via other delivery methods to you (the App and such content, products, and services are collectively referred to herein as the "Product" or "Products", which may be updated from time-to-time at the sole discretion of Nuvin). Please read these terms and conditions carefully before ordering any Products from the App or third party App stores (e.g. the Apple App Store, the Google Play Store, etc.). The terms "Nuvin," "us" or "we" refer to Nuvin. The term "Device" refers to the device which is used to access the Products including but not limited to computers, smart phones and tablets. The term "you" refers to the user of the Products. When you order ("Order") any Products, or otherwise use or access the Products, you agree to be bound by these Terms and all applicable laws, rules and regulations. You may also be asked to click "I accept" at the appropriate place prior to your purchase of access to the Products. At such time, if you do not click "I accept", you may not be able to complete such purchase or gain such access. By using the Products, you indicate that you accept these Terms and that you agree to abide by them. If you do not agree to these Terms, please refrain from using the Products.
 
-Our contact email address is nathan.douziech@gmail.com. All correspondence to Nuvin including any queries you may have regarding your use of the Products or these Terms should be sent to this contact email address.
+Our contact email address is nathan.douziech@gmail.com. All correspondence to Nuvin including any queries you may have regarding your use of the Products or these Terms should be sent to this contact email address. All correspondence to Nuvin including any queries you may have regarding your use of the Products or these Terms should be sent to this contact email address.
 
 ### 1.2 DISPUTE RESOLUTION / EQUITABLE RELIEF
 
@@ -57,13 +57,29 @@ As a Nuvin Member you will receive access to certain sections, features and func
 
 By agreeing to become a Member you opt-in to receiving occasional special offer, marketing, survey and Product based communication emails. You can easily unsubscribe from Nuvin commercial emails by following the opt-out instruction in these emails. Nuvin memberships and subscriptions are not transferable and therefore cannot be sold or exchanged or transferred in any way whatsoever.
 
-### 2.5 SUBSCRIPTIONS
+### 2.5 SUBSCRIPTIONS AND PRICING
 
-(a) Nuvin account holders may access the Products in two ways:
+(a) Nuvin operates on a freemium model with both free and premium features:
 
-(i) **Free Trial:** Subscribers may request a free trial of the Products, which Nuvin may grant at its discretion. Nuvin may terminate a free trial at anytime.
+**Free Features:** All users have access to:
+- 2 background environments (Cozy Bedroom, Underwater)
+- Approximately 40% of predefined daily habits
+- All anxiety relief tools (breathing exercises, grounding techniques, physical reset, emotion reset, journaling, reframing, and perspective shift)
+- Basic virtual Axolotl companion interactions
+- Mood tracking and streak calendar
 
-(ii) **Paid Subscription:** a subscription fee-based program, which gives access to all content. You may have access to a free trial period of the subscription program in accordance with certain promotional offers. All subscription services provide access through the Products. You can become a subscriber by purchasing a subscription to the Products from within the App, where allowed by the App marketplace partners. Please note that if you purchase a subscription through the Apple iTunes Store or our iPhone application, the sale is final, and we will not provide a refund. Your purchase will be subject to Apple's applicable payment policy, which also may not provide for refunds. If you purchase a subscription through the Google Play store, the sale is final and we will not provide a refund. Your purchase will be subject to Google's applicable payment policy, which also may not provide for refunds.
+**Premium Features (Subscription Required):**
+- 4 additional background environments (Forest, Japanese Zen Garden, Beach at Sunset, Mountain Field)
+- Approximately 60% of predefined daily habits (additional premium habits across all 8 categories)
+- Custom habit creation (unlimited)
+- Full mascot customization and advanced interactions
+
+(b) **Free Trial:** New users are offered a 3-day free trial of Premium features. You may be required to enter your billing information to sign up for the free trial. If you enter your billing information when signing up for the free trial, you will not be charged until the free trial has expired (after 3 days). On the last day of the free trial period, unless you cancel your subscription at least 24 hours before the trial expires, you will be automatically charged the applicable subscription fees for the type of subscription you have selected. You can cancel your free trial at any time by managing your subscription in your Apple ID account settings. At any time and without notice, we reserve the right to (i) modify the terms and conditions of the free trial offer, or (ii) cancel such free trial offer.
+
+(c) **Subscription Options:** Nuvin offers the following subscription plans:
+- **Monthly Subscription:** $7.99 per month (automatically renews monthly)
+- **Annual Subscription:** $49.99 per year (automatically renews yearly, equivalent to $4.17/month)
+- **Lifetime Purchase:** $99.99 one-time payment (no recurring charges, permanent access to Premium features) All subscription services provide access through the Products. You can become a subscriber by purchasing a subscription to the Products from within the App, where allowed by the App marketplace partners. Please note that if you purchase a subscription through the Apple iTunes Store or our iPhone application, the sale is final, and we will not provide a refund. Your purchase will be subject to Apple's applicable payment policy, which also may not provide for refunds. If you purchase a subscription through the Google Play store, the sale is final and we will not provide a refund. Your purchase will be subject to Google's applicable payment policy, which also may not provide for refunds.
 
 (b) Nuvin offers monthly and annual subscription options. For the purposes of our monthly and yearly subscriptions, a month constitutes 30 calendar days, and a year constitutes 365 calendar days.
 
@@ -191,7 +207,9 @@ The information contained in the Products is for general information purposes on
 
 ## 10. MEDICAL DISCLAIMER
 
-10.1 Nuvin is a provider of online and mobile content in the health & wellness space. We are not a health care or medical device provider, nor should our Products be considered medical advice. Only your physician or other health care provider can do that. While there is third party evidence from research that the information and exercises contained and outlined in Nuvin can aid in the prevention and recovery process for anxiety and panic attacks, Nuvin makes no claims, representations or guarantees that the Products provide a therapeutic benefit.
+10.1 Nuvin is a mobile wellness companion app featuring a virtual Axolotl mascot, daily habit tracking across 8 wellness categories (Calm, Food, Focus, Exercise, Gratitude, Connection, Home, Sleep), mood tracking, gamification elements (friendship levels, streaks), and evidence-based anxiety relief tools (breathing exercises, grounding techniques, journaling, physical reset, emotion reset, reframing, and perspective shift). The app also includes customizable background environments and a home screen widget for quick access to relief tools.
+
+10.2 Nuvin is a provider of online and mobile content in the health & wellness space. We are not a health care or medical device provider, nor should our Products be considered medical advice. Only your physician or other health care provider can do that. While there is third party evidence from research that the information and exercises contained and outlined in Nuvin can aid in the prevention and recovery process for anxiety and panic attacks, Nuvin makes no claims, representations or guarantees that the Products provide a therapeutic benefit.
 
 10.2 Any health information and links on the Products, whether provided by Nuvin or by contract from outside providers, is provided simply for your convenience.
 
@@ -336,4 +354,4 @@ These Terms are governed by the laws of the United States, without regard to its
 
 ---
 
-**These Terms are effective and were last updated on October 2025.**
+**These Terms are effective and were last updated on December 2025.**

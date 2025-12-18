@@ -7,14 +7,17 @@
 
 	<!-- NSPrivacyTracking: Does the app or third-party SDK use data for tracking? -->
 	<!-- Per Apple guidelines, tracking = linking data for advertising or data brokering -->
-	<!-- This app uses analytics for internal app improvement only (not tracking) -->
+	<!-- Updated: TikTok Business SDK tracks attribution data for advertising measurement -->
+	<!-- This requires App Tracking Transparency (ATT) permission -->
 	<key>NSPrivacyTracking</key>
-	<false/>
+	<true/>
 
 	<!-- NSPrivacyTrackingDomains: Domains used for tracking -->
-	<!-- No tracking domains - Mixpanel used for in-app analytics only -->
+	<!-- TikTok SDK domains for advertising attribution tracking -->
 	<key>NSPrivacyTrackingDomains</key>
 	<array>
+		<string>analytics.tiktok.com</string>
+		<string>business-api.tiktok.com</string>
 	</array>
 
 	<!-- NSPrivacyCollectedDataTypes: Types of data collected -->

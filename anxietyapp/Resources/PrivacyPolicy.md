@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last Updated:** October 2025
+**Last Updated:** December 2025
 
 Managing panic attacks and anxiety is a journey. Our hope is for Nuvin to be your partner along the way – available to offer support any time, any where, for any reason.
 
@@ -27,6 +27,12 @@ We collect the following categories of Personal Data from you when you create an
 **Social Media Data:** We have pages on social media sites like Instagram, Facebook, Twitter, and LinkedIn ("Social Media Pages"). When you interact with our Social Media Pages, we may collect Personal Data that you elect to provide to us, such as your contact details. In addition, the companies that host our Social Media Pages may provide us with aggregate information and analytics regarding the use of our Social Media Pages.
 
 **Anxiety Check-In:** The anxiety check-in and mood tracking features may help measure state of anxiety. All of the individual-level data you provide in connection with this feature will be processed by Nuvin solely for the purpose of providing you with the Check-In feature and is stored locally on your device.
+
+**Onboarding Survey Data:** During onboarding, we collect personalization information to customize your experience, including: age range, gender, sleep hours, daily routines, mental health challenges (Anxiety, ADHD, OCD, Bipolar, Depression, PTSD - all optional), exercise and wellness habits, overwhelm frequency, support network information, and attribution source (where you heard about the app). This data is stored locally on your device and used solely for personalizing your experience within the app. Attribution source information may be shared with advertising partners for measuring ad campaign effectiveness.
+
+**Journal Entries:** The Quick Journal feature allows you to write freely as a relief tool. **Important: Journal entries are NOT saved or stored anywhere.** They are immediately and permanently deleted when you complete the exercise or exit the session. We have no access to this content.
+
+**Feedback Data:** When you submit feedback through the app, we collect your email address (if provided), feedback reasons, comments, and timestamp. This information is sent via a Google Apps Script webhook and forwarded to our support email (nathan@nuvin.app) for review. This data is subject to Google's privacy policies.
 
 Nuvin does not collect or process credit or debit card ("Payment Card") data. Apple and Google collect Payment Card data with respect to in-app purchases made through the App. Such payment processors generally provide us with some limited data related to you, such as a unique, anonymous token that enables you to make additional purchases using the data they've stored, and your card's type, expiration date, and the last four digits of your card number.
 
@@ -55,6 +61,38 @@ On most web browsers, you will find a "help" section on the toolbar. Please refe
 **Advertising:** We partner with third parties, such as Facebook and Google, to manage our advertising of the Service on other sites or platforms as well as across your other devices based on your past visits to our App. Our third party partners may use technologies such as cookies to gather data about your activities within the Service to deliver such advertising to you, such as retargeting ads. We are not always able to respond to do-not-track signals. For more data about interest-based ads, including how to opt-out of having your web-browsing data used for behavioural advertising purposes, please visit www.aboutads.info/choices. Please note that this does not opt you out of being served ads. You may continue to receive generic ads on these third party platforms. You may also opt out of receiving ads across devices by adjusting your ad preference in your Google account.
 
 **Analytics:** We may use analytics services such as Google Analytics to help us analyze how users use the Service and enhance your experience when you use the Service.
+
+### Third-Party Services and SDKs
+
+We integrate the following third-party services into our app to provide functionality, analytics, and measure advertising effectiveness:
+
+**Mixpanel (Analytics):** We use Mixpanel to analyze how users interact with our app and improve user experience. Mixpanel automatically collects: app opens, first app open, app updates, session length, and events such as onboarding completion, paywall views, purchase events, and trial starts. Mixpanel receives anonymous device identifiers, event timestamps, and user properties (subscription status, onboarding completion). **Important: Your mood data, habit details, and journal content are NEVER sent to Mixpanel.** Data is processed in the United States. For more information, visit: https://mixpanel.com/legal/privacy-policy/
+
+**RevenueCat (Subscription Management):** We use RevenueCat to manage in-app subscriptions and purchases. RevenueCat receives: device ID, app user ID (anonymous), purchase receipts, subscription status, and active entitlements. RevenueCat does not receive your personal information, health data, or mood data. For more information, visit: https://www.revenuecat.com/privacy
+
+**TikTok Business SDK (Advertising Attribution):** We use the TikTok Business SDK to measure the effectiveness of our advertising campaigns and understand how users discover our app. The TikTok SDK automatically tracks:
+
+- App installs (tracked automatically on first launch)
+- App launches (tracked automatically each time you open the app)
+- Registration events (when you complete onboarding)
+- Trial starts and subscription purchases (with subscription type, value, and currency)
+- Purchase events (with value and currency)
+
+The TikTok SDK receives: device identifiers, TikTok Access Token (if applicable), App Store ID, subscription types, and purchase amounts. **The TikTok SDK does NOT receive your mood data, habits, journal content, or other health information.** TikTok may use this data to measure ad campaign performance and for their own business purposes as described in their privacy policy. For more information, visit: https://www.tiktok.com/legal/privacy-policy
+
+We use SKAdNetwork for privacy-preserving ad attribution on iOS. This allows us to measure ad campaign effectiveness without identifying individual users.
+
+### App Tracking Transparency (ATT)
+
+We request App Tracking Transparency (ATT) permission to enable advertising attribution through the TikTok SDK. The permission prompt states: "We use tracking to measure ad performance and deliver personalized content to improve your experience."
+
+If you grant ATT permission, the TikTok SDK can link your app activity to advertising data across apps and websites owned by other companies for advertising measurement purposes. If you deny permission, attribution will use privacy-preserving methods like SKAdNetwork.
+
+**You can manage tracking permissions at any time** by going to: iOS Settings → Privacy & Security → Tracking → Nuvin. You can disable tracking permission without affecting core app functionality.
+
+### Widget Data Sharing
+
+Our app includes a home screen widget that displays your virtual companion mascot and provides quick access to anxiety relief tools. To display the widget, we share limited data between the main app and the widget extension using an App Group (group.eunoia.anxietyapp). This data includes your mascot's current state and name. All widget data remains local to your device and is never sent to external servers.
 
 ## 2. How We Use Data
 
@@ -87,11 +125,23 @@ Nuvin does not sell your Personal Data. In certain circumstances we may share th
 
 **Advertisements:** We may share data with third parties, such as Facebook and Google, in order to serve Nuvin advertisements on such third party platforms, to the extent that you have consented to such practices under applicable law.
 
-## 4. Children
+## 4. Children's Privacy (COPPA Compliance)
 
-Our Service is not directed to children who are under the age of 18. If you are younger than 18 years of age, you must get consent from your parent or legal guardian before you provide any Personal Information to us.
+Our app is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13 years of age. If you are under 13, do not use this app or provide any information.
 
-If you have reason to believe that a child under the age of 18 has provided Personal Data to Nuvin through the Service that was not provided with parental consent, please contact us as indicated below and we will endeavour to delete that information from our databases.
+**For Users Aged 13-17:** If you are between 13 and 17 years old, you must have your parent or legal guardian's permission before using the app or providing any personal information to us. We collect limited data from users aged 13-17, including:
+
+- Onboarding survey responses (age range, gender, mental health information)
+- Mood tracking data (stored locally on device)
+- App usage analytics (sent to Mixpanel)
+- Subscription information (processed by RevenueCat)
+- Advertising attribution data (processed by TikTok SDK)
+
+Parents or legal guardians may request to review, delete, or stop the collection of their child's personal information by contacting us at nathan.douziech@gmail.com. We will verify the requester's identity as a parent or guardian before fulfilling such requests.
+
+If you have reason to believe that a child under the age of 13 has provided Personal Data to Nuvin through the Service, please contact us immediately at nathan.douziech@gmail.com and we will delete that information from our systems.
+
+**Note to Parents:** The TikTok Business SDK collects advertising attribution data from all users, including minors aged 13-17 who use the app with parental consent. This data is used solely for measuring advertising campaign effectiveness and is subject to TikTok's privacy practices.
 
 ## 5. Other Websites
 
@@ -117,7 +167,37 @@ Apple iOS users may opt-in to allow the App to provide data regarding the amount
 
 **Mobile Push Notifications/Alerts:** With your consent, we send promotional and other push notifications to your mobile device. You can deactivate these messages at any time by changing the notification settings on your mobile device.
 
-## 10. Your Rights as a Data Subject
+**Notification Types:** We send the following types of notifications (all require your permission):
+
+- **Daily Mood Check-In:** Reminders at your chosen time to track your mood
+- **Daily Inspirational Quotes:** One quote per day for 30 days
+- **Daily Mascot Messages:** Personalized messages from your virtual companion (includes your mascot's name)
+- **Habit Reminders:** Reminders for each habit you create, based on your selected repeat schedule
+- **Trial Expiration Reminder:** One-time notification sent 1 day before your free trial ends (if applicable)
+
+## 10. Data Retention and Deletion
+
+**Local Data Storage:** Most of your data is stored locally on your device and is not sent to our servers. This includes:
+
+- Mood tracking data (stored indefinitely in encrypted Keychain until you delete the app)
+- Habit tracking and completion history (stored indefinitely in UserDefaults until you delete the app)
+- Streaks and gamification data (stored indefinitely until you delete the app)
+- Onboarding survey responses (stored indefinitely until you delete the app)
+- Mascot name and customization (stored indefinitely in encrypted Keychain until you delete the app)
+
+**Journal Content:** Journal entries are NEVER stored. They are deleted immediately (within 60 seconds or upon user action) and cannot be recovered.
+
+**Third-Party Data Retention:** Data shared with third-party services is retained according to their respective policies:
+
+- Mixpanel: According to Mixpanel's data retention policy
+- RevenueCat: According to RevenueCat's data retention policy
+- TikTok: According to TikTok's data retention policy
+
+**Deleting Your Data:** To delete all local data, simply uninstall the app from your device. Note that some data stored in iOS Keychain may persist after uninstallation. To request deletion of data held by third-party services, please contact us at nathan.douziech@gmail.com.
+
+**Crash Reports:** Locally stored crash reports are retained until manually cleared or the app is deleted.
+
+## 11. Your Rights as a Data Subject
 
 The sections below apply to you if you use the Service while in Switzerland, the United Kingdom, or the European Economic Area (collectively, "Europe").
 
@@ -145,7 +225,7 @@ Subject to certain limits and conditions provided under law, you have the follow
 
 If you would like to exercise any of these rights and can't do so directly via the Service or your device, you may contact us as indicated below.
 
-## 11. Your Rights as a Resident of California
+## 12. Your Rights as a Resident of California
 
 This section provides additional disclosures required by the California Consumer Privacy Act (or "CCPA").
 
@@ -157,11 +237,11 @@ We do not "sell" the personal information we collect (and will not sell it in th
 
 California consumers may make a rights request by contacting us as indicated below. We will verify your request by asking you to provide information that matches information we have on file about you. Consumers can also designate an authorized agent to exercise these rights on their behalf, but we will require proof that the person is authorized to act on your behalf and may also still ask you to verify your identity with us directly.
 
-## 12. Changes to This Privacy Policy
+## 13. Changes to This Privacy Policy
 
 We may change this Privacy Policy from time to time. If we make changes, we will notify you by revising the date at the top of the policy and, in some cases, we may provide you with additional notice (such as adding a statement to our app or sending you a notification). We encourage you to review the Privacy Policy whenever you access the Service or otherwise interact with us to stay informed about our information practices and the choices available to you.
 
-## 13. Contact
+## 14. Contact
 
 Questions, comments, and requests regarding this privacy policy are welcomed and should be addressed to nathan.douziech@gmail.com.
 
